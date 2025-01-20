@@ -38,10 +38,6 @@ ul {
     gap: 10px;
 }
 
-.menu_iteam{
-    text-decoration: none;
-}
-
 button.primary_btn {
     background-color: rgb(254, 163, 1);
     border: none;
@@ -69,7 +65,7 @@ button.primary_btn {
 
 .menu_iteam {
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Headwer Responsive Css */
@@ -84,3 +80,51 @@ button.primary_btn {
     }
 }
 /* Header Area End */
+
+
+/* Hero Section */
+section#hero {
+    display: flex;
+    justify-content: center;
+}
+.hero_container {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    align-items: center;
+    padding: 0 10px;
+}
+
+p.hero_des {
+    margin: 18px 0;
+}
+.hero_title{
+    font-size: 50px;
+}
+
+button.hero_button {
+    padding: 10px 20px;
+    border: none;
+}
+
+button.hero_button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* Hero Responsive code */
+@media screen and (max-width: 576px) {
+    .hero_container {
+        flex-direction: column;
+        display: flex ;
+        justify-content: flex-start !important;
+    }
+    .content{
+        order: 2;
+    }
+}
+/* Hero Section End */
