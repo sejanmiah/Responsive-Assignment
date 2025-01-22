@@ -46,7 +46,7 @@ li {
 }
 ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 button.primary_btn {
@@ -89,6 +89,11 @@ button.primary_btn {
     .btn_area, .menu_area{
         display: none;
     }
+    header#header {
+        border-bottom: 3px solid #FEA301;
+        padding-bottom: 10px;
+    }
+    
 }
 /* Header Area End */
 
@@ -136,6 +141,7 @@ button.hero_button {
     }
     .content{
         order: 2;
+        text-align: center;
     }
 }
 /* Hero Section End */
@@ -210,6 +216,9 @@ span.arows {
         width: 0px;
         gap: 20px;
     }
+    .arow {
+        display: none;
+    }
 }
 
 /* Service Section end */
@@ -225,6 +234,7 @@ span.arows {
     object-fit: cover;
     flex-direction: column;
     padding: 30px 0;
+    align-items: center;
 }
 .ek{
    background-color: rgb(149, 178, 38);
@@ -318,6 +328,18 @@ button.stories_btn {
     }
     .hide{
         display: block;
+    }
+    .grid-container {
+        width: 0px;
+    }
+    .large{
+        display: none;
+    }
+    #stories{
+        align-items: flex-start;
+    }
+    .section_title{
+        margin: 0 auto;
     }
 }
 
